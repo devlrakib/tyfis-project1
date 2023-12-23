@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* !============================> Navabr CSS Apply Starts Here <======================= */
+.tyfis_logo{
+    width: 150px;
+    margin-left: 200px;
+}
+
+#navbarSupportedContent ul li a{
+    font-size: 22px;
+    padding: 30px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.starts-btn a{
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.header-nav{
+    position: sticky;
+    z-index: 20;
+}
+
+.starts-btn a:hover{
+    background-color: black;
+    color: white;
+}
+
+#navbarSupportedContent ul li a:hover{
+    color: black;
+}
+
+
+/* ?=========================> Navbar Responsive Apply <======================== */
+
+@media screen and (max-width:667px) {
+    .navbar .tyfis_logo{
+        margin-left: -10px;
+    }
+
+    .navbar .navbar-toggler-icon {
+        margin-left: -4px;
+    }
+
+    .navbar .starts-btn{
+        padding-top: 10px;
+        display: none;
+    }
+
+
+}
+
+
+
+/* !==============================> First Body Section CSS Starts Here <================================ */
+.first-section{
+    background-color: #fafafa;
+}
+
+
+.left-column{
+    margin-top: 200px;
+}
+
+.left-column p{
+   font-size: 20px;
+} 
+
+.left-column h1{
+
+}
+
+.left-column .tyfis-details {
+    font-size: 18px;
+    padding: 30px 30px 0px 0px;
+}
+
+.first-section .digital-agency{
+    color: #0d6efd;
+    font-weight: 400;
+}
+
+.agency-img img{
+    width: 800px;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tyfis{
+    color:#0d6efd;
+}
+
+/* ?=========================> First Body Section Responsive Apply <======================== */
+
+@media screen and (max-width:667px) {
+    .first-section .digital-agency {
+        margin-top: -179px;
+    }
+
+    .left-column h1 {
+        font-size: 19px;
+        margin-top: -8px;
+    }
+
+    .left-column .tyfis-details {
+        font-size: -17px;
+        font-size: 21px;
+        margin-top: -31px;
+    }
+
+    .md-device {
+        margin-bottom: 50px;
+        margin-left: 80px;
+    }
+
+
+    .md-device-text a {
+        font-size: 20px;
+    }
+    .md-device2 {
+        margin-top: -58px;
+        margin-left: 30px;
+    }
+
+    .agency-img img {
+        width: 350px;
+        margin-top: 5px;
+    }
+}
+
+/* ?=========================> Second Body Section Starts Here <======================== */
+
+.agency-img-development img{
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.agency-solution img{
+    width: 50px;
+}
+.agency-content{
+    margin-top: 40px;
+}
+
+.agency-content h3{
+    padding-top: 20px;
+}
+
+.agency-solution img{
+    padding-top: 30px;
+    /* margin-left: 70px; */
+}
+.agency-solution h5{
+    /* margin-left: 40px; */
+}
+
+.agency-service i{
+    /* margin-left: 40px; */
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+/* ?=========================> Second Body Section Responsive Starts Here <======================== */
+
+@media screen and (max-width:667px){
+    .agency-img-development img{
+        width: 350px;
+        margin-top: -5px;
+       
+    }
+
+    .agency-solution{
+        flex-direction: column;
+    }
+
+    .agency-solution img{
+        width: 100px;
+        margin-left: 130px;
+    }
+
+    .agency-solution h5{
+        text-align: center;
+    }
+
+    .agency-service{
+        margin-left: 70px;
+    }
+
+    .agency-solution-discover{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+}
+
+/* ?=========================> Third Body Section Starts Here <======================== */
+
+.third-section{
+    background-color: #f1f0f2;
+    padding-bottom: 10px;
+}
+
+.first-card{
+    width: 421px;
+    height: 397px;
+    background-color: #fff;
+    
+}
+
+.web-development{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.card-content h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-content p{
+    margin-left: 20px;
+}
+
+.web_development_button{
+    margin-left: 20px;
+}
+
+.first-card:hover{
+    border-bottom: 10px solid red;
+   
+}
+
+.app-development h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.app-development p{
+    margin-left: 20px;
+}
+
+.app_development_button{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.view-all-services a{
+    padding: 10px 30px;
+}
